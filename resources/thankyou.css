@@ -1,0 +1,88 @@
+/*
+
+colors:
+
+rose color: #FC7779
+dark orange color: #FCB35B
+ligh Orange color: #FCD57C
+green color: #7DB9A7
+blue color: #3DAEDE
+
+########################
+
+fonts:
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+p {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+/*styling social media Icons**************************************************/
+.social-media {
+  width: 100%;
+  height: 4rem;
+  margin: 1rem auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.icondown {
+  font-size: 2.5rem;
+  color: #7db9a7;
+  transition: all 0.4s ease;
+}
+
+.icondown:hover {
+  font-size: 2.6rem;
+  color: rgb(253, 225, 103);
+}
+@media all and (max-width: 700px) {
+  .icondown {
+    font-size: 1.6rem;
+  }
+
+  .icondown:hover {
+    font-size: 1.7rem;
+  }
+  .social-icons {
+    width: 100%;
+  }
+}
